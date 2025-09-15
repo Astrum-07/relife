@@ -1,11 +1,489 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-<h1>hola</h1>
-</body>
+    <link rel="stylesheet" href="./src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div
+      class="bg-[url(/img/showcase.png)] w-[100%] xr:h-[900px] xs:h-[800px] bg-cover bg-no-repeat"
+    >
+      <!-- header start -->
+      <header
+        class="py-[20px] backdrop-blur-[10px] bg-[rgba(37,73,31,0.31)] sticky top-0 z-50"
+      >
+        <div class="container1">
+          <nav class="flex justify-between items-center">
+            <div class="xe:hidden xs:flex text-2xl">
+              <i class="fa-solid fa-bars text-3xl text-white"></i>
+            </div>
+
+            <nav>
+              <ul class="flex lg:gap-30 sm:gap-5 xe:flex xs:hidden">
+                <li>
+                  <a class="font-light text-sm capitalize text-white" href="#"
+                    >О компании
+                  </a>
+                </li>
+                <li>
+                  <a class="font-light text-sm capitalize text-white" href="#"
+                    >Проекты
+                  </a>
+                </li>
+                <li>
+                  <a class="font-light text-sm capitalize text-white" href="#"
+                    >Уход за садом
+                  </a>
+                </li>
+                <li>
+                  <a class="font-light text-sm capitalize text-white" href="#"
+                    >Ландшафт</a
+                  >
+                </li>
+                <li>
+                  <a class="font-light text-sm capitalize text-white" href="#"
+                    >Отзывы</a
+                  >
+                </li>
+              </ul>
+            </nav>
+
+            <nav>
+              <p>
+                <a
+                  class="font-light text-sm leading-[113%] tracking-[0.03em] text-[#ffdf9e]"
+                  href="tel:+7 (981) 98-50-04"
+                >
+                  <i class="fa-solid fa-phone"></i>
+                  тел.+7 (981) 98-50-04
+                </a>
+              </p>
+
+              <p>
+                <a
+                  class="font-light text-sm leading-[113%] tracking-[0.03em] text-[#ffdf9e]"
+                  href="#"
+                >
+                  <i class="fa-solid fa-location-dot"></i>
+                  Санкт-Петербург и ЛО
+                </a>
+              </p>
+            </nav>
+          </nav>
+        </div>
+      </header>
+      <!-- header end-->
+
+      <!-- showcase start -->
+      <section class="py-[90px]">
+        <div class="container1 relative">
+          <div
+            class="p xr:flex xr:flex-row xs:flex xs:flex-col justify-between items-center gap-20"
+          >
+            <div
+              class="left xs:w-[100%] xr:w-[50%] xs:text-center xr:text-start"
+            >
+              <img src="./img/show.png" alt="" />
+
+              <h1
+                class="font-light xr:text-4xl xs:text-[16px] leading-[116%] tracking-[0.03em] text-white my-[30px]"
+              >
+                Благоустройство <br />
+                и озеленение участков
+              </h1>
+              <button
+                class="shadow-[0_4px_20px_0_rgba(0,0,0,0.25),inset_9px_9px_10px_0_rgba(0,0,0,0.25)] bg-[rgba(255,126,53,0.53)] rounded-[5px] border-2 border-solid border-[#ff7e35] font-light text-2xl text-[#ffdf9e] px-[10px]"
+              >
+                Оставить заявку
+              </button>
+            </div>
+
+            <div class="right xr:flex xr:flex-col xs:flex xs:flex-row gap-3">
+              <div
+                class="pt-[10px] pl-[10px] bg-[rgb(255,223,158)] rounded-[50%] w-[48px] h-[48px] text-2xl"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div
+                class="pt-[10px] pl-[10px] bg-[rgb(255,223,158)] rounded-[50%] w-[48px] h-[48px] text-2xl"
+              >
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+              <div
+                class="pt-[10px] pl-[10px] bg-[rgb(255,223,158)] rounded-[50%] w-[48px] h-[48px] text-2xl"
+              >
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-[rgba(33,26,21,0.87)] w-[100%] flex justify-between items-center py-[30px] absolute xr:bottom-[-400px] xs:bottom-[-250px]"
+          >
+            <div class="w-[30%] text-center">
+              <img
+                class="xr:w-[90px] xs:w-[50px] m-auto"
+                src="./img/art1.png"
+                alt=""
+              />
+              <p class="text-sm text-[#ffdf9e]">Опыт работы более 10 лет</p>
+            </div>
+
+            <div class="w-[30%] text-center">
+              <img
+                class="xr:w-[90px] xs:w-[50px] m-auto"
+                src="./img/art1.png"
+                alt=""
+              />
+              <p class="text-sm text-[#ffdf9e]">Гарантия на растения</p>
+            </div>
+
+            <div class="w-[30%] text-center">
+              <img
+                class="xr:w-[90px] xs:w-[50px] m-auto"
+                src="./img/art1.png"
+                alt=""
+              />
+              <p class="text-sm text-[#ffdf9e]">Лучшие питомники</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- showcase end -->
+    </div>
+
+    <!-- o start -->
+    <section class="my-[120px]">
+      <div class="container1">
+        <div class="p bg-[rgba(87,82,73,0.98)] rounded-[5px] p-[20px]">
+          <h2 class="font-normal text-lg text-[#ffdf9e]">О КОМПАНИИ</h2>
+          <p
+            class="font-normal text-sm leading-[143%] tracking-widest text-justify text-[#ffdf9e]"
+          >
+            Relief Image - компания по уходу за садом и ландшафтом. Более 10 лет
+            мы занимаемся благоустройством загородных участков, также имеем
+            порядка 60 готовых работ в Ленинградской области и Санкт-Петербурге.
+            К нам обращаются и доверяют уже более 20 постоянных клиентов за
+            помощью по благоустройству и уходу участков. Наша компания
+            отличается КАЧЕСТВОМ выполненных работ, ГАРАНТИЕЙ на растения,
+            ЛУЧШИМИ питомниками для вашего участка и разработкой проекта ПОД
+            КЛЮЧ. Обратившись к нашим специалистам, вы всегда будете
+            чувствовать, как мы с большим вниманием относимся к вашим
+            предпочтениям. Одной из ключевых задач нашей компании является то,
+            что бы клиент всегда оставался доволен и наслаждался выполненной
+            работой. Если вас интерисовали именно эти критерии при подборе
+            спициалистов, то вы попали в нужные руки!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- o end -->
+
+    <!-- nashi start -->
+    <section class="mb-[40px]">
+      <div class="container1">
+        <div class="p">
+          <h2 class="font-normal text-lg text-[#34642c]">НАШИ ПРОЕКТЫ</h2>
+        </div>
+        <div class="b flex justify-between">
+          <div class="box">
+            <img class="z-[-1]" src="./img/dom.png" alt="" />
+          </div>
+          <div class="">
+            <img src="./img/dom2.png" alt="" />
+            <img src="./img/dom3.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- nashi end -->
+
+    <!-- uxod start -->
+    <section
+      class="bg-[url(/img/o.png)] xs:h-[1700px] xe:h-[1200px] sm:h-[900px] bg-no-repeat bg-cover py-[50px]"
+    >
+      <div class="container1">
+        <h2 class="ont-normal text-lg text-[#ffdf9e] my-[40px]">
+          УХОД ЗА САДОМ
+        </h2>
+        <div
+          class="t bg-[rgba(57,54,47,0.8)] py-[40px] px-[20px] rounded-[5px]"
+        >
+          <p
+            class="font-light text-sm leading-[143%] tracking-widest text-justify text-[#ffdf9e]"
+          >
+            Каждый участок требует постоянный профессиональный уход, чтобы
+            поддерживать ту красоту, которую планировал ландшафтный дизайнер.
+            Это подразумевает большой комплекс работ, требующих много времени.
+            Доверьтесь нашим опытным садоводам! И мы гарантируем качество работ,
+            здоровый сад, а самое главное ваше сэкономленное время.
+          </p>
+        </div>
+
+        <div
+          class="b my-[50px] border shadow-[0_0_20px_0_rgba(0,0,0,0.25)] bg-white rounded-[5px] border-solid border-[rgba(0,0,0,0.25)] p-[30px]"
+        >
+          <div
+            class="t sm:flex sm:flex-row xs:flex xs:flex-col justify-between gap-5"
+          >
+            <div class="l">
+              <button
+                class="border shadow-[0_0_5px_0_rgba(0,0,0,0.25)] bg-white rounded-[5px] border-solid border-[rgba(0,0,0,0.2)] font-normal text-lg leading-[139%] text-black py-[20px] px-[40px] xr:w-[300px] xs:w-[200px]"
+              >
+                ЛЕТО
+              </button>
+              <button
+                class="border shadow-[0_0_5px_0_rgba(0,0,0,0.25)] bg-white rounded-[5px] border-solid border-[rgba(0,0,0,0.2)] font-normal text-lg leading-[139%] text-black py-[20px] px-[40px] xr:w-[300px] xs:w-[200px] mt-[20px]"
+              >
+                ОСЕНЬ
+              </button>
+              <button
+                class="border shadow-[0_0_5px_0_rgba(0,0,0,0.25)] bg-white rounded-[5px] border-solid border-[rgba(0,0,0,0.2)] font-normal text-lg leading-[139%] text-black py-[20px] px-[40px] xr:w-[300px] xs:w-[200px] mt-[20px]"
+              >
+                ВЕСНА
+              </button>
+              <button
+                class="border shadow-[0_0_5px_0_rgba(0,0,0,0.25)] bg-white rounded-[5px] border-solid border-[rgba(0,0,0,0.2)] font-normal text-lg leading-[139%] text-black py-[20px] px-[40px] xr:w-[300px] xs:w-[200px] mt-[20px]"
+              >
+                ЛЕТО
+              </button>
+            </div>
+            <div class="r">
+              <p>
+                Уход за цветниками (прополка, обрезка сухого, рыхление)
+                Формовочная обрезка (фигурная стрижка, стрижка изгородей,
+                производитсяпо мере роста) Стрижка газона Обработка газона от
+                сорняков (первая обработка производится после первого коса
+                газона) Внесение удобрений ( по газону производится 1 раз в 2
+                недели, по цветниками в зависимости от растений) Обработка от
+                вредителей и болезней (производится с интервалом в 10-14 дней)
+                Обработка мощения от сорняков (производится 1 раз в месяц)
+              </p>
+            </div>
+          </div>
+          <p class="font-light text-sm tracking-[0.06em] text-black mt-[30px]">
+            *Отдельно оплачивается: вывоз мусора, химия, удобрение, материалы
+            для дополнительных работ ( например: земля, мульча, бордюрная лента
+            и т.д.)
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- uxod end -->
+
+    <!-- landshaft start -->
+    <section class="my-[40px]">
+      <div class="container1">
+        <h2 class="font-normal text-lg text-[#34642c] mb-[30px]">ЛАНДШАФТ</h2>
+        <div class="bg-[#5a554d] rounded-[5px] p-[20px]">
+          <p
+            class="font-light text-sm leading-[143%] tracking-wider text-[#ffdf9e]"
+          >
+            Ландшафтный дизайн помогает обеспечить красивый вид вокруг вашего
+            дома. Ведь участок должен выглядеть эстетично, иметь логическую
+            структуру и радовать глаз. Чтобы избежать лишних разочарований,
+            необходимо грамотно продумать и разработать дизайн-проект. Обладая
+            теоретическими знаниями и практическим опытом, мы воплотим в
+            реальность все ваши пожелания.
+          </p>
+        </div>
+        <div
+          class="b grid md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 justify-between gap-6 my-[40px]"
+        >
+          <div class="box">
+            <p>1. Ландшафтное проектирование участка</p>
+            <img src="./img/land.png" alt="" />
+          </div>
+
+          <div class="box">
+            <p>2. Подготовка участка</p>
+            <img src="./img/lan2.png" alt="" />
+          </div>
+
+          <div class="box">
+            <p>3. Создание дренажной системы</p>
+            <img src="./img/lan3.png" alt="" />
+          </div>
+
+          <div class="box">
+            <p>4. Устройство дорожного покрытия</p>
+            <img src="./img/lan4.png" alt="" />
+          </div>
+
+          <div class="box">
+            <p>5. Альпийские горки, рокарии, альпинарии</p>
+            <img src="./img/lan5.png" alt="" />
+          </div>
+
+          <div class="box">
+            <p>6. Устройство ручьев, водоемов, каскадов</p>
+            <img src="./img/lan6.png" alt="" />
+          </div>
+
+          <div class="box">
+            <p>7. Строительство, маф</p>
+            <img src="./img/lan7.png" alt="" />
+          </div>
+
+          <div class="box">
+            <p>8. Подпорные стенки</p>
+            <img src="./img/lan8.png" alt="" />
+          </div>
+
+          <div class="box">
+            <p>9. Посадка растений</p>
+            <img src="./img/lan9.png" alt="" />
+          </div>
+
+          <div class="box">
+            <p>10. Устройство газона</p>
+            <img src="./img/lan10.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- landshaft end-->
+
+    <!-- otziv start -->
+    <section>
+      <div class="container1">
+        <h2 class="font-normal text-lg text-[#34642c] text-center">ОТЗЫВЫ</h2>
+        <div
+          class="p sm:flex sm:flex-row xs:flex xs:flex-col justify-between gap-10 my-[40px]"
+        >
+          <div class="box sm:w-[33%] xs:w-[100%]">
+            <svg
+              class="mx-auto"
+              width="77"
+              height="77"
+              viewBox="0 0 77 77"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M77 38.5C77 59.763 59.763 77 38.5 77C17.237 77 0 59.763 0 38.5C0 17.237 17.237 0 38.5 0C59.763 0 77 17.237 77 38.5Z"
+                fill="#C4C4C4"
+              />
+            </svg>
+            <p class="text-center my-[10px] font-normal text-sm text-black">
+              Михаил
+            </p>
+            <p class="font-normal text-sm text-justify text-[#34642c]">
+              К компании relief image обратился в конце 2019 года, и летом 2020
+              все работы были закончены. Мы с семьей живём в пос. Правдинское
+              озеро, хотели наш пустой и неровный участок превратить в уютный
+              зеленый сад, с хорошим газоном, огородом и создать цветники у
+              дома. Работой довольны, команда Надежды теперь занимается
+              обслуживанием нашего участка.
+            </p>
+          </div>
+
+          <div class="box sm:w-[33%] xs:w-[100%]">
+            <svg
+              class="mx-auto"
+              width="77"
+              height="77"
+              viewBox="0 0 77 77"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M77 38.5C77 59.763 59.763 77 38.5 77C17.237 77 0 59.763 0 38.5C0 17.237 17.237 0 38.5 0C59.763 0 77 17.237 77 38.5Z"
+                fill="#C4C4C4"
+              />
+            </svg>
+            <p class="text-center my-[10px] font-normal text-sm text-black">
+              Наталья
+            </p>
+            <p class="font-normal text-sm text-justify text-[#34642c]">
+              В 2016 году понадобились специалисты по уходу за садом. С командой
+              Надежды наш сад зацвёл новыми красками. В том же году мы купили
+              дом в Репино. Хотели создать уютный уголок с зоной отдыха. И уже
+              тогда мы понимали, кому доверить воплощение наших желаний. Работой
+              довольны, все предпочтения были учтены. По сегодняшний день мы
+              доверяем наш сад только специалистам relief image.
+            </p>
+          </div>
+
+          <div class="box sm:w-[33%] xs:w-[100%]">
+            <svg
+              class="mx-auto"
+              width="77"
+              height="77"
+              viewBox="0 0 77 77"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M77 38.5C77 59.763 59.763 77 38.5 77C17.237 77 0 59.763 0 38.5C0 17.237 17.237 0 38.5 0C59.763 0 77 17.237 77 38.5Z"
+                fill="#C4C4C4"
+              />
+            </svg>
+            <p class="text-center my-[10px] font-normal text-sm text-black">
+              Ольга
+            </p>
+            <p class="font-normal text-sm text-justify text-[#34642c]">
+              Наш участок находится в Петергофе. К Надежде обратились в 2016
+              году. Была необходимость в уходе за садом, растения болели, а
+              также, было много насекомых. Работой команды довольны. Вот уже 4
+              года доверяем наш сад специалистам!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- otziv end -->
+
+    <!-- footer start -->
+    <footer class="bg-[#5a554d]">
+      <div class="container1">
+        <div class="p py-[40px] sm:flex sm:fle-row xe:items-end gap-6 justify-between">
+          <div class="box">
+            <h3 class="font-normal text-lg  text-white">Контакты</h3>
+            <p class="font-light text-sm text-white mt-[40px]">Телефон</p>
+            <p class="font-light text-sm text-white">
+              <i class="fa-solid fa-phone"></i
+              ><a class="font-light text-sm text-white" href="tel:+7 (981) 98-50-04"> +7 (981) 98-50-04 </a>
+            </p>
+          </div>
+
+          <div class="box2">
+            <p class=" font-light text-sm text-white">Email</p>
+            <a class=" font-light text-sm text-white" href="mailto:relief.image@mail.ru">relief.image@mail.ru</a>
+          </div>
+
+          <div class="box3">
+            <div class="right flex items-center gap-3 mb-[40px]">
+              <div
+                class="pt-[10px] pl-[10px] bg-[rgb(255,223,158)] rounded-[50%] w-[48px] h-[48px] text-2xl"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div
+                class="pt-[10px] pl-[10px] bg-[rgb(255,223,158)] rounded-[50%] w-[48px] h-[48px] text-2xl"
+              >
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+              <div
+                class="pt-[10px] pl-[10px] bg-[rgb(255,223,158)] rounded-[50%] w-[48px] h-[48px] text-2xl"
+              >
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+            </div>
+            <p class=" font-light text-sm text-white">
+              <i class="fa-solid fa-location-dot"></i
+              ><a class=" font-light text-sm text-white" href="#">Санкт-Петербург и ЛО</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <img class="w-[100%]" src="./img/footer img.png" alt="" />
+    </footer>
+    <!-- footer start -->
+  </body>
 </html>
